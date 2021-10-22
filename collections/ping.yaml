@@ -3,3 +3,5 @@
   tasks:
     - name: sdf
       ping:
+    - name: List col
+      shell: ansible-galaxy collection list
