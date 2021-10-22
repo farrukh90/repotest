@@ -7,6 +7,6 @@
       command: "ansible-galaxy collection list"
       register: COUTPUT
       
-    - name: Print return information from the previous task
-      ansible.builtin.debug:
-        msg: "{{ COUTPUT }}"
+#     - name: Print return information from the previous task
+#       ansible.builtin.debug:
+#         msg: "{{ COUTPUT }}"
