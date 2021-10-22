@@ -1,4 +1,5 @@
 ---
 - hosts: localhost
   tasks:
-    ping:
+    - name: sdf
+      ping:
