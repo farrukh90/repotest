@@ -9,5 +9,4 @@
       
     - name: Print return information from the previous task
       ansible.builtin.debug:
-        var: "{{ col }}"
-        verbosity: 2
+        msg: "{{ col }}"
