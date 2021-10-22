@@ -5,3 +5,7 @@
       ping:
     - name: List col
       shell: ansible-galaxy collection list
+      REGISTER: col
+    - name: printnames
+      debug:
+        var: printnames
